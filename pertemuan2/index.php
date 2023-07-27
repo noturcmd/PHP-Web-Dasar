@@ -12,9 +12,9 @@
         <?php 
             for($i = 1; $i <= 3; $i++): ?>
         <tr>
-            <?php for($j = 1; $j <= 5; $j++){ ?>
+            <?php for($j = 1; $j <= 5; $j++): ?>
             <td><?php echo "$i, $j" ?></td>
-            <?php } ?>
+            <?php endfor; ?>
         </tr>
         <?php endfor; ?>
     </table>
