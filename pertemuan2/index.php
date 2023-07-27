@@ -8,7 +8,15 @@
 </head>
 
 <body>
+    <table>
+        <?php 
+            for($i = 1; $i <= 3; $i++){ ?>
+        <tr>
+            <?php ?>
+        </tr>
 
+        <?php } ?>
+    </table>
 </body>
 
 </html>
